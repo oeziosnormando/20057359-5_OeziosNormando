@@ -1,0 +1,112 @@
+
+* { 
+	margin:0; padding: 0; 
+}
+
+nav { min-height: 90px; margin-bottom: 0 !important;  }
+
+li .nav-link,  a:hover{
+	color: #F4A460;
+}
+.nav-link li:hover{
+	color: #f4a460;
+}
+.dropdown-link{
+	color: #F4A460 !important;
+}	
+
+#main { background: linear-gradient(135deg, #FFDEAD 0%,	#F4A460 100%); padding: 50px; }
+
+#home {background: linear-gradient(135deg, #FFDEAD 0%,	#F4A460 100%);  }
+
+#promocao{padding-top: 20px; padding-bottom: 20px;}
+
+#produtos{padding-top: 20px; padding-bottom: 20px;}
+
+#detalhes_produtos{margin: 50px 0;}
+#detalhes_produtos p {text-align: justify; color:rgb(94, 91, 91); font-size: 18px; line-height: 1.8; padding-top:30px; }
+
+#detalhes_promocao{margin: 50px 0;}
+#detalhes_promocao p {text-align: justify; color:rgb(112, 109, 109); font-size: 18px; line-height: 1.8; padding-top:30px; }
+
+
+#quemSomos {margin: 50px 0;}
+#quemSomos p { text-align: justify; color:rgb(88, 78, 78); font-size: 18px; line-height: 1.8; padding-top:30px;}
+
+
+#contato p { text-align: justify; color:rgb(88, 78, 78); font-size: 18px; line-height: 1.8; padding: top 3px;}
+
+.itemContato{
+	background: linear-gradient(185deg, #f5f5f5 100%,	#ffffff 0%); 
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+form {
+	margin: 30px;
+	padding-bottom: 30px;
+}
+textarea {
+	resize: none;
+}
+
+iframe{ padding-right: 20px;}
+
+
+h1, h2, h3, h4, h5{
+	padding: 15px;
+	font-family: 'Capriola', sans-serif;
+}	
+
+p, a {
+	 color:rgb(41, 38, 38); font-size: 18px; text-decoration: none !important;
+}
+a :hover{
+	color: rgb(26, 105, 252) !important;
+}
+
+.align-self-center{
+	text-align: center;
+}
+
+
+
+.imgQuemSomos{
+
+	max-width: 100%;
+	width: 580px;
+	height: auto;
+	object-fit: cover;
+	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77); 
+}
+
+figure {
+  float: right;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  
+}
+img.scaled {
+
+	min-width: 100%;
+	width: 200px;
+	height: auto;
+	object-fit: cover;
+	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77); 
+
+}
+
+#thFooter {
+	background: linear-gradient(135deg, #FFDEAD 0%,#F4A460 100%);  min-height: 180px; color:rgb(83, 83, 83); padding: 30px; 
+}
+
+.footer-copyright { padding-top: 15px; padding-bottom: 10px; text-align-last: center;}
+
