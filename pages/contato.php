@@ -25,7 +25,7 @@
 			<div class="col-md-4">
 				<div class="itemContato">
 					<a href="https://goo.gl/maps/vFnhFzUJ7bqLDkGd7"><i class="fa fa-map-marker fa-3x"></i>
-					<h5>Endereço<object data="" type=""></object></h5></a>
+					<h5>Endereço</h5></a>
 					<p class="lead">Avenida rio madeira, 0003 - B. Nova esperança <br>Porto Velho/Ro</p>
 					
 				</div>
@@ -48,7 +48,7 @@
 <section id="contato">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="col-lg-6">
 				<h3 class="text-center" class="display-3">Envie sua mensagem preenchendo os campos abaixo</h3>
 				<h5 class="text-center" class="display-4" >Fale com a Doce Amor</h5>
 				<form type="post" action="">
@@ -85,11 +85,11 @@
 					<button type="submit" class="btn btn-secondary">Enviar</button>
 				</form>
             </div>
-			<div class="col-md-6 col-md-offset-3">
+			<div class="col-lg-6">
 				<h5 class="text-center" class="display-4">Nossa Localização</h5>
 				<figure>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.402606318092!2d-63.87802068568856!3d-8.748135893715988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92325cb29a99d071%3A0x7dfd32c8871895ed!2sPorto%20Velho%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1629622468630!5m2!1spt-BR!2sbr" 
-						width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+						width="400" height="400" style="border: 1px;" allowfullscreen="" loading="lazy">
 					</iframe>
 					<figcaption>Estamos no Shopping de Porto Velho - Ro </figcaption>
 				</figure>

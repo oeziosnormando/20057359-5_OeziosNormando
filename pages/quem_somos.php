@@ -5,7 +5,7 @@
 <div id="quemSomos">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-7 col-md-offset-3">
+			<div class="col">
 				<h2 class="text-center" class="display-4" >Doce Amor, onde tudo começa</h2>
 				<P class="text-center"><img class="imgQuemSomos" src="images/img_Nossa_Historia.jpg" class="img-fluid"></P> 
 				
@@ -22,7 +22,7 @@
 					<footer class="blockquote-footer">Oézios Normando<cite title="Título da fonte"> - Way Online</cite></footer>
 				</blockquote>
 			</div>
-			<div class="col-md-5 col-md-offset-3">
+			<div class="col">
 				<div>
 					<p class="lead">
 					Muitos dos sabores criados por Salvadori lá no início, como o Bolo Brigadeiro, 
