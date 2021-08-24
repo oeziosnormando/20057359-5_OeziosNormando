@@ -26,9 +26,7 @@ li .nav-link,  a:hover{
 #detalhes_produtos{margin: 50px 0;}
 #detalhes_produtos p {text-align: justify; color:rgb(94, 91, 91); font-size: 18px; line-height: 1.8; padding-top:30px; }
 
-#detalhes_promocao{margin: 50px 0;}
-#detalhes_promocao p {text-align: justify; color:rgb(112, 109, 109); font-size: 18px; line-height: 1.8; padding-top:30px; }
-
+#detalhes_promocao{padding-bottom: 50px; margin: 50px 0;}
 
 #quemSomos {margin: 50px 0;}
 #quemSomos p { text-align: justify; color:rgb(88, 78, 78); font-size: 18px; line-height: 1.8; padding-top:30px;}
@@ -71,8 +69,6 @@ a :hover{
 	text-align: center;
 }
 
-
-
 .imgQuemSomos{
 
 	max-width: 100%;
@@ -105,7 +101,7 @@ img.scaled {
 }
 
 #thFooter {
-	background: linear-gradient(135deg, #FFDEAD 0%,#F4A460 100%);  min-height: 180px; color:rgb(83, 83, 83); padding: 30px; 
+	background: linear-gradient(135deg, #FFDEAD 0%,#F4A460 100%);  min-height: 180px; color:rgb(83, 83, 83); padding: 40px; 
 }
 
 .footer-copyright { padding-top: 15px; padding-bottom: 10px; text-align-last: center;}
