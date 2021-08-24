@@ -32,7 +32,7 @@
 			</a>
 			<div class="footer-copyright">
 				<div class="container">
-					© 2021 Copyright Doce Amor | Todos os direitos reservados. Construido por R.A 200573595 Oezios Normando
+					© 2021 Copyright Doce Amor | Todos os direitos reservados. Construido por R.A 20057359-5 Oezios Normando
 					<a class="grey-text text-lighten-4 right" href="#!"><i class="fab fa-github"> GitHub</i></a>
 				</div>
 			</div>

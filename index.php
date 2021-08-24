@@ -1,4 +1,3 @@
-
 <?php 
 
 /* 
@@ -31,7 +30,7 @@ switch ($pagina) {
         include 'pages/contato.php';
         break;
 
-	case'detalhes_promocao':
+	case 'detalhes_promocao':
 		include 'pages/detalhes_promocao.php';
 		break;
 

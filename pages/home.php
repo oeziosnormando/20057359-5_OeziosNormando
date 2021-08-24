@@ -40,15 +40,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="pages/detalhes_promocao.php"><img src="images/Banner_Bolo_mes.png" class="img-fluid"></a>
+                        <a href="?i=detalhes_promocao"><img src="images/Banner_Bolo_mes.png" class="img-fluid"></a>
                     </div>
 
                     <div class="col-md-4">
-                        <a href="pages/detalhes_promocao.php"><img src="images/Banner_Fatia_dia.png" class="img-fluid">
+                        <a href="?i=detalhes_promocao"><img src="images/Banner_Fatia_dia.png" class="img-fluid"></a>
                     </div>
 
                     <div class="col-md-4">
-                        <a href="pages/detalhes_promocao.php"><img src="images/Banner_Niver_do_mes.png" class="img-fluid">
+                        <a href="?i=detalhes_promocao"><img src="images/Banner_Niver_do_mes.png" class="img-fluid"></a>
                     </div>
                 </div>
             </div>
