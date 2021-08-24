@@ -57,10 +57,16 @@ h1, h2, h3, h4, h5{
 	padding: 15px;
 	font-family: 'Capriola', sans-serif;
 }	
+h5.texte-center{
+	margin: 0px;
+	color:rgb(83, 83, 83);
+
+}
 
 p, a {
 	 color:rgb(41, 38, 38); font-size: 18px; text-decoration: none !important;
 }
+
 a :hover{
 	color: rgb(26, 105, 252) !important;
 }
@@ -88,16 +94,19 @@ figure {
   text-indent: 0;
   
 }
-img.scaled {
+img .rounded-circle {
 
 	min-width: 100%;
-	width: 200px;
+	width: 100px;
 	height: auto;
 	object-fit: cover;
 	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
 	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77); 
 
+}
+.col-md-8 p {
+	padding: 0, 30px;
 }
 
 #thFooter {

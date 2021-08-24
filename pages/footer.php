@@ -4,9 +4,9 @@
 				<div class="row">
 					<div class="col-md-8">
 						<p>
-							<a href="?i=home">Home</a>
-							<a href="?i=quem_somos">Quem somos</a>
-							<a href="">Contato</a>
+							<a href="?i=home">HOME</a>
+							<a href="?i=quem_somos">QUEM SOMOS</a>
+							<a href="?i=contato">CONTATO</a>
 						</p>
 					</div>		
 					<div class="col-md-4 d-flex justify-content-end">

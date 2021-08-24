@@ -18,7 +18,7 @@
         <!-- Estilo customizado -->
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
         <!--favicon-->
-        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="images/logo_transparent.png" type="image/x-icon">
         <title>Doce Amor - Doçaria</title>
     </head>
 
@@ -36,23 +36,23 @@
                     <div class="collapse navbar-collapse" id="nav-principal">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a href="?i=home" class="nav-link">Home</a>
+                                <a href="?i=home" class="nav-link">HOME</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Produtos</a>
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PRODUTOS</a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Bolos</a>
-                                    <a class="dropdown-item" href="#">Docinhos</a>
-                                    <a class="dropdown-item" href="#">Tortas e pavê</a>
+                                    <a class="dropdown-item" href="#produtos_A">BOLOS</a>
+                                    <a class="dropdown-item" href="#produtos_B">DOCINHOS</a>
+                                    <a class="dropdown-item" href="#produtos_C">TORTAS E PAVÊ</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Doces no pote</a>
+                                    <a class="dropdown-item" href="#produtos_D">DOCES NO POTE</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a href="?i=quem_somos" class="nav-link">Quem Somos</a>
+                                <a href="?i=quem_somos" class="nav-link">QUEM SOMOS</a>
                             </li>
                             <li class="nav-item">
-                                <a href="?i=contato" class="nav-link">Contato</a>
+                                <a href="?i=contato" class="nav-link">CONTATO</a>
                             </li>
                         </ul>
                     </div>

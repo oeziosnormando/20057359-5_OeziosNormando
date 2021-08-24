@@ -36,7 +36,7 @@
 					</p>
 
 					<figure>
-						<p><img class="scaled" src="images/Bicho_de_pé.jpg" alt="Brigadeiro bicho de pé"></p>
+						<p><img class="rounded-circle" src="images/Bicho_de_pé.jpg" alt="Brigadeiro bicho de pé" title="Brigadeiro bicho de pé"></p>
 
 						<figcaption>Uma das criações mais famosas foi o doce cor-de-rosa batizado e patenteado como Bicho de Pé®.</figcaption>
 					</figure>
