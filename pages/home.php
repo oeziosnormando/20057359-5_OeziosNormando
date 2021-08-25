@@ -1,4 +1,9 @@
-        
+    <?php
+    
+        include'dados/dados.php';
+    
+    ?>
+
         <section id="home"> <!-- Início seção home -->
             <div class="container">
                 <div class="row">            
@@ -27,9 +32,10 @@
                     </div>
                     <div class="col-md-4 d-flex"><!-- Textos da seção -->
                         <div class="align-self-center">
-                            <h1>Deu vontade?</h1>
-                            <h4>#ISSOQUEÉAMOR</h4>
-                            <p class="lead">Receitas caseiras recheadas de Doce Amor.</p>
+
+                            <h1><?= $textoHome["titulo"];?></h1>
+                            <h4><?= $textoHome["subTitulo"];?></h4>
+                            <p class="lead"><?= $textoHome["pTitulo"];?></p>
                         </div>
                     </div><!--/fim textos da seção --> 
                 </div>
@@ -40,15 +46,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="?i=detalhes_promocao"><img src="images/Banner_Bolo_mes.png" class="img-fluid"></a>
+                        <a href="?i=detalhes_promocao"><img src="<?=$secaoPromo["boloMes"];?>" class="img-fluid"></a>
                     </div>
 
                     <div class="col-md-4">
-                        <a href="?i=detalhes_promocao"><img src="images/Banner_Fatia_dia.png" class="img-fluid"></a>
+                        <a href="?i=detalhes_promocao"><img src="<?=$secaoPromo["fatiaDia"];?>" class="img-fluid"></a>
                     </div>
 
                     <div class="col-md-4">
-                        <a href="?i=detalhes_promocao"><img src="images/Banner_Niver_do_mes.png" class="img-fluid"></a>
+                        <a href="?i=detalhes_promocao"><img src="<?=$secaoPromo["niverMes"];?>" class="img-fluid"></a>
                     </div>
                 </div>
             </div>
@@ -58,12 +64,16 @@
             <div class="container">
                 <h3 class="text-left" class="display-3">BOLOS</h3>
                 <div class="row">
-                    <div class="col-md-4">
-                        <a href=""><img src="images/bolo_africa.jpg" class="img-fluid" title="Bolo africa" >
-                        <h5 class="text-center">BOLO ÁFRICA</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>
 
+                    <?php foreach($bolos as $bolo) : ?>
+                        <div class="col-md-4">
+                            <a href=""><img src=" <?= $bolo["boloAfrica"]; ?>" class="img-fluid" title="Bolo africa" >
+                            <h5 class="text-center"><?= $bolo["tituloBolo"]; ?> </h5></a>
+                            <p class="text-center">---------------</p>
+                        </div>
+
+                    <?php endforeach ?>
+                    <!--
                     <div class="col-md-4">
                         <a href=""><img src="images/bolo_bicho_de_pe.png" class="img-fluid" title="Bolo bicho de pé">
                         <h5 class="text-center">BOLO BICHO DE PÉ</h5></a>
@@ -74,7 +84,8 @@
                         <a href=""><img src="images/bolo_crocante.jpeg" class="img-fluid" title="Bolo crocante">
                         <h5 class="text-center">BOLO CROCANTE</h5></a>
                         <p class="text-center">---------------</p>
-                    </div>    
+                    </div>   
+                    --> 
                 </div>
             </div>
         </section>
