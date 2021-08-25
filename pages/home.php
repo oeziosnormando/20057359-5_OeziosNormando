@@ -94,12 +94,21 @@
             <div class="container">
                 <h3 class="text-left" class="display-3">DOCINHOS</h3>
                 <div class="row">
+                      <?php foreach($docinhos as $doce) : ?>
+                        <div class="col-md-4">
+                            <a href=""><img src=" <?= $doce["doce"]; ?>" class="img-fluid" title="Brigadeiro" >
+                            <h5 class="text-center"><?= $doce["tituloDoce"]; ?> </h5></a>
+                            <p class="text-center">---------------</p>
+                        </div>
+
+                    <?php endforeach ?>
+                    <!--
                     <div class="col-md-4">
                         <a href=""><img src="images/brigadeiro_caramelado_com_nozes.jpeg" class="img-fluid" title="Brigadeiro caramelado com nozes" >
                         <h5 class="text-center">BRIGADEIRO CARAMELADO COM NOZES</h5></a>
                         <p class="text-center">---------------</p>
                     </div>
-
+                 
                     <div class="col-md-4">
                         <a href=""><img src="images/brigadeiro.png" class="img-fluid" title="Brigadeiro">
                         <h5 class="text-center">BRIGADEIRO</h5></a>
@@ -111,6 +120,7 @@
                         <h5 class="text-center">BICHO DE PÉ</h5></a>
                         <p class="text-center">---------------</p>
                     </div>    
+                    -->
                 </div>
             </div>
         </section>
@@ -120,6 +130,16 @@
                 <h3 class="text-left" class="display-3">TORTAS E PAVÊ</h3>
                 <div class="row">
                     <div class="col-md-4">
+
+                        <?php foreach($paves as $pave) : ?>
+                            <div class="col-md-4">
+                                <a href=""><img src="<?= $pave["pave"]; ?>" class="img-fluid" title="Pavê de chocolate branco" >
+                                <h5 class="text-center"><?= $pave["tituloPave"]; ?> </h5></a>
+                                <p class="text-center">---------------</p>
+                            </div>
+
+                        <?php endforeach ?>
+                        <!--
                         <a href=""><img src="images/pave_de_chocolate_branco.png" class="img-fluid" title="Pavê de chocolate branco" >
                         <h5 class="text-center">PAVÊ DE CHOCOLATE BRANCO</h5></a>
                         <p class="text-center">---------------</p>
@@ -135,7 +155,8 @@
                         <a href=""><img src="images/pave_de_nozes.png" class="img-fluid" title="Pavê de nozes">
                         <h5 class="text-center">PAVÊ DE NOZES</h5></a>
                          <p class="text-center">---------------</p>
-                    </div>    
+                    </div>   
+                    --> 
                 </div>
             </div>
         </section>

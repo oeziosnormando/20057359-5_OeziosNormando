@@ -36,4 +36,44 @@
 	$bolos = [$bolo1, $bolo2, $bolo3 ];
 
 
+
+	$doce1 = [
+		"doce" =>"images/brigadeiro.png",
+		"tituloDoce" =>"Brigadeiro"
+	];
+
+	$doce2 = [
+		"doce" =>"images/bicho_de_pe.jpeg",
+		"tituloDoce" =>"Brigadeiro bicho de pé"
+	];
+
+	$doce3 = [
+		"doce" =>"images/brigadeiro_caramelado_com_nozes.jpeg",
+		"tituloDoce" =>"Brigadeiro caramelado com nozes"
+	];
+
+	$docinhos = [$doce1, $doce2, $doce3 ];
+
+
+
+	$pave1 = [
+		"pave" =>"images/pave_de_chocolate_branco.png",
+		"tituloTorta" =>"PAVÊ DE CHOCOLATE BRANCO"
+	];
+
+	$pave2 = [
+		"pave" =>"images/pave_de_chocolate.png",
+		"tituloTorta" =>"PAVÊ DE CHOCOLATE"
+	];
+
+	$pave3 = [
+		"pave" =>"images/pave_de_nozes.png",
+		"tituloTorta" =>"PAVÊ DE NOZES"
+	];
+
+	$paves = [$pave1, $pave2, $pave3 ];
+
+
+
+
 ?>
