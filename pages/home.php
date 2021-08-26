@@ -3,7 +3,6 @@
         include'dados/dados.php';
     
     ?>
-
         <section id="home"> <!-- Início seção home -->
             <div class="container">
                 <div class="row">            
@@ -44,6 +43,8 @@
 
         <section id="promocao"><!--/Início seção promoção -->
             <div class="container">
+                <h3 class="text-center" class="display-3"> Faça seus pedidos pelo whatsapp <a href=" https://wa.me/5569993882222?text=Ol%C3%A1%2C%20seja%20bem%20vindo!" 
+  				target="_blank"><i style="margin-top:16px" class="fa fa-whatsapp fa-3x"></i></a></h3>
                 <div class="row">
                     <div class="col-md-4">
                         <a href="?i=detalhes_promocao"><img src="<?=$secaoPromo["boloMes"];?>" class="img-fluid"></a>
@@ -67,25 +68,13 @@
 
                     <?php foreach($bolos as $bolo) : ?>
                         <div class="col-md-4">
-                            <a href=""><img src=" <?= $bolo["boloAfrica"]; ?>" class="img-fluid" title="Bolo africa" >
-                            <h5 class="text-center"><?= $bolo["tituloBolo"]; ?> </h5></a>
+                            <a href=""><img src=" <?= $bolo["bolo"]; ?>" class="img-fluid" title="<?= $title["titleBolo"]; ?> ">
+                            <h5 class="text-center"><?= $bolo["nomeBolo"]; ?> </h5></a>
                             <p class="text-center">---------------</p>
                         </div>
 
                     <?php endforeach ?>
-                    <!--
-                    <div class="col-md-4">
-                        <a href=""><img src="images/bolo_bicho_de_pe.png" class="img-fluid" title="Bolo bicho de pé">
-                        <h5 class="text-center">BOLO BICHO DE PÉ</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href=""><img src="images/bolo_crocante.jpeg" class="img-fluid" title="Bolo crocante">
-                        <h5 class="text-center">BOLO CROCANTE</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>   
-                    --> 
+                  
                 </div>
             </div>
         </section>
@@ -94,23 +83,15 @@
             <div class="container">
                 <h3 class="text-left" class="display-3">DOCINHOS</h3>
                 <div class="row">
-                    <div class="col-md-4">
-                        <a href=""><img src="images/brigadeiro_caramelado_com_nozes.jpeg" class="img-fluid" title="Brigadeiro caramelado com nozes" >
-                        <h5 class="text-center">BRIGADEIRO CARAMELADO COM NOZES</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>
+                    <?php foreach($docinhos as $doce) : ?>
+                        <div class="col-md-4">
+                            <a href=""><img src=" <?= $doce["doce"]; ?>" class="img-fluid" title="<?= $title["titleDoce"]; ?> ">
+                            <h5 class="text-center"><?= $doce["nomeDoce"]; ?> </h5></a>
+                            <p class="text-center">---------------</p>
+                        </div>
 
-                    <div class="col-md-4">
-                        <a href=""><img src="images/brigadeiro.png" class="img-fluid" title="Brigadeiro">
-                        <h5 class="text-center">BRIGADEIRO</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href=""><img src="images/bicho_de_pe.jpeg" class="img-fluid" title="Bicho de pé">
-                        <h5 class="text-center">BICHO DE PÉ</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>    
+                    <?php endforeach ?>
+                 
                 </div>
             </div>
         </section>
@@ -119,23 +100,15 @@
             <div class="container">
                 <h3 class="text-left" class="display-3">TORTAS E PAVÊ</h3>
                 <div class="row">
-                    <div class="col-md-4">
-                        <a href=""><img src="images/pave_de_chocolate_branco.png" class="img-fluid" title="Pavê de chocolate branco" >
-                        <h5 class="text-center">PAVÊ DE CHOCOLATE BRANCO</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>
+                    <?php foreach($paves as $pave) : ?>
+                        <div class="col-md-4">
+                            <a href=""><img src="<?= $pave["pave"]; ?>" class="img-fluid" title="<?= $title["titlePave"]; ?> ">
+                            <h5 class="text-center"><?= $pave["nomePave"]; ?> </h5></a>
+                            <span class="text-center">---------------</span>
+                        </div>
 
-                    <div class="col-md-4">
-                        <a href=""><img src="images/pave_de_chocolate.png" class="img-fluid" title="Pavè de chocolate">
-                        <h5 class="text-center">BRIGADEIRO</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href=""><img src="images/pave_de_nozes.png" class="img-fluid" title="Pavê de nozes">
-                        <h5 class="text-center">PAVÊ DE NOZES</h5></a>
-                         <p class="text-center">---------------</p>
-                    </div>    
+                    <?php endforeach ?>
+                       
                 </div>
             </div>
         </section>
@@ -144,23 +117,14 @@
             <div class="container">
                 <h3 class="text-left" class="display-3">DOCES NO POTE</h3>
                 <div class="row">
-                    <div class="col-md-4">
-                        <a href=""><img src="images/creme_de_coco_com_morango_sem_acucar.png" class="img-fluid" title="Creme de coco com morango" >
-                        <h5 class="text-center">CREME DE COCO COM MORANGO</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href=""><img src="images/mousse_chocolate_Branco_com_uvas.png" class="img-fluid" title="Mousse de chocolate branco">
-                        <h5 class="text-center">MOUSSE DE CHOCOLATE BRANCO</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href=""><img src="images/sufle_de_chocolate_com_morango.png" class="img-fluid" title="Sufle de chocolate com morango">
-                        <h5 class="text-center">SUFLE DE CHOCOLATE COM MORANGO</h5></a>
-                        <p class="text-center">---------------</p>
-                    </div>    
+                    <?php foreach ($mousses as $mousse) : ?>
+                        <div class="col-md-4">
+                            <a href=""><img src="<?= $mousse["mousse"]; ?>" class="img-fluid" title="<?= $title["titleMousse"]; ?> ">
+                            <h5 class="text-center"><?= $mousse["nomeMousse"]; ?> </h5></a>
+                            <p class="text-center">---------------</p>
+                        </div>
+                    <?php endforeach ?>
+                  
                 </div>
             </div>
         </section>

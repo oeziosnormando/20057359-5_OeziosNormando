@@ -10,7 +10,7 @@
 					<a href="#"><i class="fa fa-phone fa-3x"></i>
 					<h5>Telefone</h5></a>
 					(69) 3200-0000 / 90029-0000
-					<p class="lead">2ª a 6ª das 08h às 13h / 14h às 18h00 <br>Sábado das 08h às 11h</p>
+					<p class="lead">De 2ª a 6ª das 08h às 12h / 14h às 17h00 <br>Sábado das 08h às 11h</p>
 				</div>
 			</div>
 
@@ -26,7 +26,7 @@
 				<div class="itemContato">
 					<a href="https://goo.gl/maps/vFnhFzUJ7bqLDkGd7"><i class="fa fa-map-marker fa-3x"></i>
 					<h5>Endereço</h5></a>
-					<p class="lead">Avenida rio madeira, 0003 - B. Nova esperança <br>Porto Velho/Ro</p>
+					<p class="lead">Avenida Rio Madeira, 0003 - B. Nova Esperança <br>Porto Velho/Ro</p>
 					
 				</div>
 			</div>

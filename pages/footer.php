@@ -33,7 +33,7 @@
 			<div class="footer-copyright">
 				<div class="container">
 					© 2021 Copyright Doce Amor | Todos os direitos reservados. Construido por R.A 20057359-5 Oezios Normando
-					<a class="grey-text text-lighten-4 right" href="https://github.com/oeziosnormando/20057359-5_oeziosNormando.git"><i class="fab fa-github"> GitHub</i></a>
+					<a class="grey-text text-lighten-4 right" href="https://github.com/oeziosnormando/20057359-5_oeziosNormando.git" target="_blank"><i class="fab fa-github"> GitHub</i></a>
 				</div>
 			</div>
 		</footer>
