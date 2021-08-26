@@ -42,20 +42,32 @@
 
 	$doce1 = [
 		"doce" =>"images/brigadeiro.png",
+<<<<<<< HEAD
 		"nomeDoce" =>"Brigadeiro",
 		"titleDoce" =>"Brigadeiro"
+=======
+		"tituloDoce" =>"Brigadeiro"
+>>>>>>> 89daaf257d289bc4c775d7c233f914129f79c3d5
 	];
 
 	$doce2 = [
 		"doce" =>"images/bicho_de_pe.jpeg",
+<<<<<<< HEAD
 		"nomeDoce" =>"Brigadeiro bicho de pe",
 		"titleDoce" =>"Brigadeiro bicho de pé"
+=======
+		"tituloDoce" =>"Brigadeiro bicho de pé"
+>>>>>>> 89daaf257d289bc4c775d7c233f914129f79c3d5
 	];
 
 	$doce3 = [
 		"doce" =>"images/brigadeiro_caramelado_com_nozes.jpeg",
+<<<<<<< HEAD
 		"nomeDoce" =>"Brigadeiro caramelado com nozes",
 		"titleDoce" =>"Brigadeiro caramelado com nozes"
+=======
+		"tituloDoce" =>"Brigadeiro caramelado com nozes"
+>>>>>>> 89daaf257d289bc4c775d7c233f914129f79c3d5
 	];
 
 	$docinhos = [$doce1, $doce2, $doce3 ];
@@ -64,25 +76,38 @@
 
 	$pave1 = [
 		"pave" =>"images/pave_de_chocolate_branco.png",
+<<<<<<< HEAD
 		"nomePave"=>"Pavê de chocolate branco",
 		"titlePave" =>"Pavê de chocolate branco"
+=======
+		"tituloTorta" =>"PAVÊ DE CHOCOLATE BRANCO"
+>>>>>>> 89daaf257d289bc4c775d7c233f914129f79c3d5
 	];
 
 	$pave2 = [
 		"pave" =>"images/pave_de_chocolate.png",
+<<<<<<< HEAD
 		"nomePave"=>"Pavê de chocolate",
 		"titlePave" =>"Pavê de chocolate"
+=======
+		"tituloTorta" =>"PAVÊ DE CHOCOLATE"
+>>>>>>> 89daaf257d289bc4c775d7c233f914129f79c3d5
 	];
 
 	$pave3 = [
 		"pave" =>"images/pave_de_nozes.png",
+<<<<<<< HEAD
 		"nomePave"=>"Pavê de nozes",
 		"titlePave" =>"Pavê de nozes"
+=======
+		"tituloTorta" =>"PAVÊ DE NOZES"
+>>>>>>> 89daaf257d289bc4c775d7c233f914129f79c3d5
 	];
 
 	$paves = [$pave1, $pave2, $pave3 ];
 
 
+<<<<<<< HEAD
 	$mousse1 = [
 		"mousse"=>"images/creme_de_coco_com_morango_sem_acucar.png",
 		"nomeMousse"=>"Creme de coco com morango",
@@ -102,5 +127,8 @@
 	];
 
 	$mousses = [$mousse1, $mousse2, $mousse3];
+=======
+
+>>>>>>> 89daaf257d289bc4c775d7c233f914129f79c3d5
 
 ?>
