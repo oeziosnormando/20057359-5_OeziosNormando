@@ -97,8 +97,8 @@ figure {
 }
 img .rounded-circle {
 
-	min-width: 100%;
-	width: 100px;
+	min-width: 80%;
+	width: 70px;
 	height: auto;
 	object-fit: cover;
 	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
@@ -106,7 +106,7 @@ img .rounded-circle {
 	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77); 
 
 }
-iframe{ 
+p iframe { 
 	text-align: center;
 }
 .col-md-8 p {

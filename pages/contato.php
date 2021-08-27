@@ -89,9 +89,8 @@
 				<h5 class="text-center" class="display-4">Nossa Localização</h5>
 				<figure>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.402606318092!2d-63.87802068568856!3d-8.748135893715988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92325cb29a99d071%3A0x7dfd32c8871895ed!2sPorto%20Velho%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1629622468630!5m2!1spt-BR!2sbr" 
-						width="400" height="400" style="border: 1px;" allowfullscreen="" loading="lazy">
-					</iframe>
-					<figcaption>Estamos no Shopping de Porto Velho - Ro </figcaption>
+						width="500" height="400" style="border: 1px solid;" allowfullscreen="" loading="lazy"></iframe>
+					<figcaption class="text-center">Estamos no Shopping de Porto Velho - Ro </figcaption>
 				</figure>
 			</div>	
 		</div>
