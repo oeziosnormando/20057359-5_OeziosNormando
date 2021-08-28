@@ -24,7 +24,7 @@ li .nav-link,  a:hover{
 #produtos_A, #produtos_B, #produtos_C, #produtos_D {
 	padding-top: 30px; padding-bottom: 50px;}
 
-#detalhes_produtos{margin: 50px 0;}
+#detalhes_produtos{margin-top: 50px; padding-top: 30px; padding-bottom: 150px;}
 #detalhes_produtos p {text-align: justify; color:rgb(94, 91, 91); font-size: 18px; line-height: 1.8; padding-top:30px; }
 
 #detalhes_promocao{padding-bottom: 50px; margin: 50px 0;}

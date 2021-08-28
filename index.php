@@ -34,6 +34,10 @@ switch ($pagina) {
 		include 'pages/detalhes_promocao.php';
 		break;
 
+	case 'detalhes_produtos':
+		include 'pages/detalhes_produtos.php';
+		break;
+
 	default:
 		include 'pages/home.php';
 		break;

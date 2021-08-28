@@ -70,7 +70,7 @@
                 <div class="row">
                     <?php foreach($bolos as $bolo) : ?>
                         <div class="col-md-4">
-                            <a href=""><img src=" <?= $bolo["bolo"]; ?>" class="img-fluid" title="<?= $title["titleBolo"]; ?> ">
+                            <a href="?i=detalhes_produtos"><img src=" <?= $bolo["bolo"]; ?>" class="img-fluid" title="<?= $title["titleBolo"]; ?> ">
                             <h5 class="text-center"><?= $bolo["nomeBolo"]; ?> </h5></a>
                             <p class="text-center">---------------</p>
                         </div>
